@@ -39,7 +39,13 @@ def square(start, end):
 
 def circle_(start, end):
     "Draw circle from start to end."
-
+    #Creacion de funciones para dibujar un circulo 
+    up()
+    goto(start.x, start.y)
+    down()
+    begin_fill()
+    circle(end.x - start.x)
+    end_fill()
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
