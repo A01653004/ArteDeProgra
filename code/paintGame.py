@@ -14,7 +14,7 @@ from turtle import *
 
 from freegames import vector
 
-speed(1)
+
 def line(start, end):
     "Draw line from start to end."
     up()
@@ -85,7 +85,6 @@ def tap(x, y):
         end = vector(x, y)
         shape(start, end)
         state['start'] = None
-
 
 def store(key, value):
     "Store value in state at key."
