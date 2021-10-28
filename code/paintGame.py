@@ -49,6 +49,7 @@ def circle_(start, end):
 
 def rectangle(start, end):
     "Draw rectangle from start to end."
+    #Creacion de funciones para dibujar el rectangulo
     up()
     goto(start.x, start.y)
     down()
@@ -64,6 +65,7 @@ def rectangle(start, end):
 
 def triangle(start, end):
     "Draw triangle from start to end."
+    #Creacion de funciones para dibujar el triangulo
     up()
     goto(start.x, start.y)
     down()
